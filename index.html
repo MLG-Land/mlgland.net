@@ -24,16 +24,9 @@
 		</div>
         <div class="updates">
           <h2>Updates</h2>
-          <p>
-            <?php
-              $file = fopen("updates.txt", "r");
-              $line = fgets($file);
-              echo $line;
-              fclose($file);
-            ?>
-          </p>
+          <p class="latest-updates"></p>
         </div>
-        <div class=mediainfo>
+        <div class="mediainfo">
           <p>
             <span>
               <a>
