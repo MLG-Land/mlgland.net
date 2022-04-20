@@ -1,11 +1,11 @@
 /* Make a dark blue background */
 body {
-    background-color: #000066;
+    background-color: rgb(0, 119, 156);
 }
 
 /* Make green rounded buttons */
 button {
-    background-color: #4CAF50;
+    background-color: #0da515;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -20,6 +20,24 @@ button {
 /* Make text for all elements white */
 h1 {
     color: white;
+}
+h2 {
+	color: white;
+}
+h3 {
+	color: white;
+}
+h4 {
+	color: white;
+}
+h5 {
+	color: white;
+}
+h6 {
+	color: white;
+}
+p {
+	color: white;
 }
 
 /* Make an animation for hovering over the buttons */
