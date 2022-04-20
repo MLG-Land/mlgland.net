@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MLG LAND</title>
-    <!-- import css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- import javascript -->
-    <script src="script.js"></script>
-  	</head>
-  	<body>
-    <div class="container">
-      <div class="header">
-        <h1>MLG LAND</h1>
-        <div class="buttons">
-          <a href="index.html"><button>Home</button></a>
-          <a href="play.html"><button>Play</button></a>
-          <a href="contact.html"><button>Contact</button></a>
-        </div>
-		<div class="banner">
-			<a href="https://minecraftservers.org/server/635055" target="_blank"><img src="https://status.minecraftservers.org/classic/635055.png" alt="MLG Land Minecraft server" width="540" height="90" /></a>
-		</div>
-        <div class="updates">
-          <h2>Updates</h2>
-          <p id="latest-updates">
-              <!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
-              <script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MLG LAND</title>
+        <!-- import css -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- import javascript -->
+        <script src="script.js"></script>
+	</head>
+	<body>
+        <div class="container">
+            <div class="header">
+                <h1>MLG LAND</h1>
+                <div class="buttons">
+                    <a href="index.html"><button>Home</button></a>
+                    <a href="play.html"><button>Play</button></a>
+                    <a href="contact.html"><button>Contact</button></a>
+                </div>
+			</div>
+			<div class="banner">
+				<a href="https://minecraftservers.org/server/635055" target="_blank"><img src="https://status.minecraftservers.org/classic/635055.png" alt="MLG Land Minecraft server" width="540" height="90" /></a>
+            <div class="updates">
+            <h2>Updates</h2>
+            <p id="latest-updates">
+                <!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
+                <script>
                 var xhttp = new XMLHttpRequest();
                 xhttp.onreadystatechange = function() {
-                  if (this.readyState == 4 && this.status == 200) {
+                    if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("latest-updates").innerHTML = this.responseText;
-                  }
+                    }
                 };
                 xhttp.open("GET", "./updates.txt", true);
                 xhttp.send();
                 </script>
-          </p>
+            </p>
         </div>
         <div class="mediainfo">
-          <p>
+            <p>
             <span>
-				<p>
-				Discord Server
-				</p>
+				<p>Discord Server</p>
                 <iframe src="https://discord.com/widget?id=961433163572334603&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </span>
-            <span>
-              <button type="button" onclick="document.location.reload(true)">Website</button>
-            </span>
-          </p>
-      </div>
+            </p>
+        </div>
     </div>
-  </body>
+    </body>
 </html>
