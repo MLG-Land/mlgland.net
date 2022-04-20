@@ -4,7 +4,7 @@ body {
 }
 
 /* Make green rounded buttons */
-.button {
+button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -15,4 +15,19 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* Make text for all elements white */
+p {
+    color: white;
+}
+
+/* Make an animation for hovering over the buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Change hyperlink color if hovering over it */
+a:hover {
+    color: #4CAF50;
 }
