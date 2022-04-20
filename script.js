@@ -1,4 +1,4 @@
-document.getElementById('file').onchange = function(){
+document.getElementById('latest-updates').onchange = function(){
   var file = this.files[0];
   var reader = new FileReader();
   reader.onload = function(progressEvent){    
