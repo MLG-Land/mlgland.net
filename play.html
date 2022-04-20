@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- import javascript -->
 		<script src="script.js"></script>
-		<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 	</head>
 	<body>
 		<div class="header">
@@ -32,6 +31,26 @@
 				<h2>Server Status</h2>
 				<span class="upstate"></span>
 			</div>
+			<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+			<script>
+				MinecraftAPI.getServerStatus(
+					"mlgland.ddns.net",
+					{
+						port: 25565, // optional, only if you need a custom port
+					},
+					function (err, status) {
+						if (err) {
+							return (document.querySelector(
+								".status"
+							).innerHTML = "Error loading status");
+						}
+
+						// you can change these to your own message!
+						document.querySelector(".upstate").innerHTML =
+							status.online ? "up" : "down";
+					}
+				);
+			</script>
 		</div>
 	</body>
 </html>
