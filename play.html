@@ -47,7 +47,9 @@
 
 						// you can change these to your own message!
 						document.querySelector(".upstate").innerHTML =
-							status.online ? "up" : "down";
+							status.online
+								? "<h4>Status: Online</h4>"
+								: "<h4>Status: Offline</h4>";
 					}
 				);
 			</script>
