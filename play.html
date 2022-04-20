@@ -30,6 +30,7 @@
 			<div class="status">
 				<h2>Server Status</h2>
 				<span class="upstate"></span>
+				<span class="players"></span>
 			</div>
 			<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 			<script>
@@ -50,6 +51,12 @@
 							status.online
 								? "<h4>Status: Online</h4>"
 								: "<h4>Status: Offline</h4>";
+						document.querySelector(".players").innerHTML =
+							"<h4>Players: " +
+							status.players.now +
+							"/" +
+							status.players.max +
+							"</h4>";
 					}
 				);
 			</script>
