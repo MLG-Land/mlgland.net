@@ -1,5 +1,6 @@
-document.getElementById('file').onchange = function(){
-  var file = this.files[0];
+document.getElementById('latest-updates').onchange = function(){
+  // var file = this.files[0];
+  var file = "updates.txt";
   var reader = new FileReader();
   reader.onload = function(progressEvent){    
     var fileContentArray = this.result.split(/\r\n|\n/);
