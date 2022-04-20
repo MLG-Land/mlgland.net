@@ -23,24 +23,31 @@ button {
 /* Make text for all elements white */
 h1 {
     color: white;
+	font-family: 'Montserrat Alternates';
 }
 h2 {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 h3 {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 h4 {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 h5 {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 h6 {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 p {
 	color: white;
+	font-family: 'Montserrat Alternates';
 }
 
 /* Make an animation for hovering over the buttons */
