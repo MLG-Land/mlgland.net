@@ -31,6 +31,8 @@
 				<h2>Server Status</h2>
 				<span class="upstate"></span>
 				<span class="players"></span>
+				<span class="version"></span>
+				<span class="protocol"></span>
 			</div>
 			<script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 			<script>
@@ -57,6 +59,10 @@
 							"/" +
 							status.players.max +
 							"</h4>";
+						document.querySelector(".version").innerHTML =
+							"<h4>Version: " + status.server.name + "</h4>";
+						document.querySelector(".protocol").innerHTML =
+							"<h4>Version: " + status.server.protocol + "</h4>";
 					}
 				);
 			</script>
