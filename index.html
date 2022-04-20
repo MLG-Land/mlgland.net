@@ -21,7 +21,14 @@
         </div>
         <div class="updates">
           <h2>Updates</h2>
-          
+          <p>
+            <?php
+              $file = fopen("updates.txt", "r");
+              $line = fgets($file);
+              echo $line;
+              fclose($file);
+            ?>
+          </p>
         </div>
         <div class=mediainfo>
           <p>
