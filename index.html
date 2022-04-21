@@ -22,7 +22,24 @@
 			</div>
 			<div class="banner">
 				<a href="https://minecraftservers.org/server/635055" target="_blank"><img src="https://status.minecraftservers.org/classic/635055.png" alt="MLG Land Minecraft server" width="540" height="90" /></a>
-            <div class="updates">
+			</div>
+			<div class="alerts">
+            	<h2>Updates</h2>
+            <h3 id="latest-alerts">
+                <!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
+                <script>
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("latest-alerts").innerHTML = this.responseText;
+                    }
+                };
+                xhttp.open("GET", "./alerts.txt", true);
+                xhttp.send();
+                </script>
+            </h3>
+        </div>
+			<div class="updates">
             <h2>Updates</h2>
             <h3 id="latest-updates">
                 <!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
