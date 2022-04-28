@@ -15,7 +15,7 @@
 			<div class="header">
 				<h1>MLG LAND</h1>
 				<div class="buttons" style="width: 100%">
-					<a href="index.html"><button>Home</button></a>
+					<a href="index.php"><button>Home</button></a>
 					<a href="play.html"><button>Play</button></a>
 					<a href="contact.html"><button>Contact</button></a>
 					<a href="/account/login/"
