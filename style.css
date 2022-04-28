@@ -20,6 +20,10 @@ button {
 	font-family: 'Montserrat Alternates';
 }
 
+.f-left { float: left; }
+.f-center { float: center; }
+.f-right { float: right; }
+
 /* Make text for all elements white */
 h1 {
     color: white;
