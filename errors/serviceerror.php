@@ -19,7 +19,7 @@
   </div>
   <div id="info">
     <?php 
-      echo 'Error code: $_POST["code"]';
+      echo 'Error code: $_GET["code"]';
     ?>
   </div>
 </div>
