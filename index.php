@@ -16,8 +16,8 @@
 				<h1>MLG LAND</h1>
 				<div class="buttons" style="width: 100%">
 					<a href="index.php"><button>Home</button></a>
-					<a href="play.html"><button>Play</button></a>
-					<a href="contact.html"><button>Contact</button></a>
+					<a href="play.php"><button>Play</button></a>
+					<a href="contact.php"><button>Contact</button></a>
 					<a href="/account/login/"
 						><button class="f-right">Login</button></a
 					>
