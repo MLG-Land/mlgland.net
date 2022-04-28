@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta name="description" content="Webpage description goes here" />
+		<meta charset="utf-8" />
+		<title>Log in to MLG Land</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="" />
+		<link rel="stylesheet" href="../../style.css" />
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
 
-<head>
-    <meta name="description" content="Webpage description goes here" />
-    <meta charset="utf-8">
-    <title>Log in to MLG Land</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="../../style.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-</head>
+	<body>
+		<div class="container">
+			<div class="center-box" align="center">
+				<h1>Login</h1>
+				<br />
+				<div id="login-form">
+					<form
+						id="questions"
+						action="/login_request.php"
+						method="post"
+					>
+						<label for="user">Username</label><br />
+						<input type="text" id="user" name="user" /><br />
+						<label for="pass">Password</label><br />
+						<input type="password" id="pass" name="pass" /><br />
+						<input type="submit" value="Login" />
+					</form>
+				</div>
+				<br />
+				<p>
+					Don't have an account?
+					<a href="/signup.html">Sign up now</a>!
+				</p>
+			</div>
+		</div>
 
-<body>
-  
-<div class="container">
-	<div class="center-box" align=center>
-		<h1>Login</h1><br>
-	  	<div id="login-form">
-			<form id="questions" action="/login_request.php" method="post">
-				<label for="user">Username</label><br>
-				<input type="text" id="user" name="user"><br>
-				<label for="pass">Password</label><br>
-				<input type="password" id="pass" name="pass"><br>
-				<input type="submit" value="Login">
-			</form>
-		</div><br>
-		<p>Don't have an account? <a href="/signup.html">Sign up now</a>!</p>
-	</div>
-</div>
-
-<script>
-</script>
-
-</body>
+		<script></script>
+	</body>
 </html>
