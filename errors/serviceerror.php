@@ -19,11 +19,13 @@
   </div>
   <div id="info">
     <?php 
-      echo "Error code: " . htmlspecialchars($_GET["code"]);
+      echo "Error code: " . htmlspecialchars($_GET["code"]) . "\n";
 	  switch (htmlspecialchars($_GET["code"])) {
 		  case "0":
 			  echo "The service is currently down or not accepting requests";
 			  break;
+		  default:
+			  echo "Invalid code";
 	  }
     ?>
   </div>
