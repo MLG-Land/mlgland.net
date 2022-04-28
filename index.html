@@ -69,6 +69,11 @@
 								var text = this.responseText;
 								//now we make it so that each line will be seperated by a <br>
 								text = text.replace(/\n/g, "<br>");
+								// make it so that only the first 10 lines will be displayed
+								text = text
+									.split("<br>")
+									.slice(0, 10)
+									.join("<br>");
 								//now we will display the text
 								document.getElementById(
 									"latest-updates"
