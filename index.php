@@ -38,7 +38,18 @@
 				<h2>Alerts</h2>
 				<h3 id="latest-alerts">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
-					<script src="./alerts.js"></script>
+					<!-- <script src="./alerts.js"></script> -->
+
+					<!-- Get content from ./alerts.txt and display them on screen with php -->
+					<!-- Only display the first 3 alerts -->
+					<?php
+						$alerts = file_get_contents("./alerts.txt");
+						$alerts = explode("\n", $alerts);
+						$alerts = array_slice($alerts, 0, 3);
+						foreach ($alerts as $alert) {
+							echo "<p>$alert</p>";
+						}
+					?>
 				</h3>
 			</div>
 			<div class="updates">
