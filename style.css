@@ -63,3 +63,10 @@ button:hover {
 a:hover {
     color: #4CAF50;
 }
+
+.center-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #767591;
+}
