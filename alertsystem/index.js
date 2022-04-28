@@ -9,21 +9,33 @@ var listener = app.listen(3000, function () {
 
 // make a function to handle the request
 function handleRequest(request, response) {
-	console.log("Received a request");
+	// get content from the request
+	var content = request.content;
 
-	// get content from a file called ./alerts.txt
-	var fs = require('fs');
-	var content = fs.readFileSync('./alerts.txt', 'utf8');
+	// get the first character of the content
+	var firstChar = content.charAt(0);
 
-	// get the text from the request
-	var text = request.url;
-
-	var output = text + '<br>' + content;
-
-	// save output to a file called ./alerts.txt
-	fs.writeFileSync('./alerts.txt', output);
-
-	response.end("Done!");
+	switch (firstChar) {
+		case 1:
+			// get the content after the first character
+			var text = content.substring(1);
+			// put content from ./alerts.txt into a variable
+			var alerts = fs.readFileSync("./alerts.txt", "utf8");
+			// save content to ./alerts.txt
+			fs.writeFileSync("./alerts.txt", text + "\n" + alerts);
+			response.end("Done");
+			break;
+	
+		case 2:
+			// get the content after the first character
+			var text = content.substring(1);
+			// put content from ./updates.txt into a variable
+			var updates = fs.readFileSync("./updates.txt", "utf8");
+			// save content to ./updates.txt
+			fs.writeFileSync("./updates.txt", text + "\n" + updates);
+			response.end("Done");
+			break;
+	}
 }
 
 // trigger handleRequest when a request is made to the listener
