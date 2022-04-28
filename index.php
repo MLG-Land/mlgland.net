@@ -58,14 +58,14 @@
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./updates.js"></script> -->
 					
-					<!-- Get content from ./alerts.txt and display them on screen with php -->
-					<!-- Only display the first 3 alerts -->
+					<!-- Get content from ./updates.txt and display them on screen with php -->
+					<!-- Only display the first 5 updates -->
 					<?php
-						$alerts = file_get_contents("./alerts.txt");
-						$alerts = explode("\n", $alerts);
-						$alerts = array_slice($alerts, 0, 3);
-						foreach ($alerts as $alert) {
-							echo "<p>$alert</p>";
+						$updates = file_get_contents("./updates.txt");
+						$updates = explode("\n", $updates);
+						$updates = array_slice($updates, 0, 5);
+						foreach ($updates as $update) {
+							echo "<p>$update</p>";
 						}
 					?>
 				</h3>
