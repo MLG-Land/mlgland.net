@@ -34,7 +34,7 @@
 						height="90"
 				/></a>
 			</div>
-			<div class="alerts">
+			<!-- <div class="alerts">
 				<h2>Alerts</h2>
 				<h3 id="latest-alerts">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
@@ -49,25 +49,10 @@
 						xhr.open("GET", "./updates.txt", true);
 
 						//when the file is loaded, do this
-						xhr.onload = function () {
-							//if the file is loaded successfully
-							if (this.status == 200) {
-								//split the file into seperate lines
-								var lines = this.responseText.split("\n");
-
-								//loop through each line
-								for (var i = 0; i < lines.length; i++) {
-									//display the line
-									document.write(lines[i] + "<br />");
-								}
-							}
-						};
-
-						//send the request
-						xhr.send();
+						//
 					</script>
 				</h3>
-			</div>
+			</div> -->
 			<div class="updates">
 				<h2>Updates</h2>
 				<h3 id="latest-updates">
