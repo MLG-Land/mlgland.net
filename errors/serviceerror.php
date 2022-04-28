@@ -19,7 +19,7 @@
   </div>
   <div id="info">
     <?php 
-      echo 'Error code: $_GET["code"]';
+      echo "Error code: " . htmlspecialchars($_GET["code"]);
     ?>
   </div>
 </div>
