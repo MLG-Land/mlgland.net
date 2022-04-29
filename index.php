@@ -69,9 +69,6 @@
 					</span>
 				</p>
 			</div>
-			<script>
-			includeHTML();
-			</script>
 		</div>
 	</body>
 </html>
