@@ -98,6 +98,13 @@
 					</span>
 				</p>
 			</div>
+			<div class="card">
+  				<img src="/assets/sidgames5.png" alt="Avatar" style="width:100%">
+  				<div class="card-container">
+    				<h4><b>SidGames5</b></h4> 
+    				<p>Server Owner</p> 
+  				</div>
+			</div>
 		</div>
 	</body>
 </html>
