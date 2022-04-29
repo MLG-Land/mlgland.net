@@ -13,7 +13,10 @@
 	<body>
 		<div class="container">
 			<div class="header" w3-include-html="/header.html"></div>
-			<script src="/script.js">includeHTML();</script>
+			<script src="/script.js"></script>
+			<script>
+				includeHTML();
+			</script>
 			<div class="banner">
 				<a
 					href="https://minecraftservers.org/server/635055"
