@@ -90,14 +90,6 @@
 					?>
 				</h3>
 			</div>
-			<div class="mediainfo">
-				<p>
-					<span>
-						<p>Discord Server</p>
-						<!--<iframe src="https://discord.com/widget?id=961433163572334603&theme=dark" width="350" height="400" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>-->
-					</span>
-				</p>
-			</div>
 			<div class="card">
   				<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:10%">
   				<div class="card-container">
