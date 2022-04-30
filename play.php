@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- import javascript -->
 		<script src="script.js"></script>
+		<!-- Add meta for description -->
+		<meta name="description" content="MLG Land Minecraft server connection information" />
 	</head>
 	<body>
 		<div class="header">
