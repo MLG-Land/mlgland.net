@@ -99,7 +99,7 @@
 				</p>
 			</div>
 			<div class="card">
-  				<img src="/assets/sidgames5.png" alt="Avatar" style="width:100%">
+  				<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:100%">
   				<div class="card-container">
     				<h4><b>SidGames5</b></h4> 
     				<p>Server Owner</p> 
