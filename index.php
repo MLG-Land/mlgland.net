@@ -95,36 +95,39 @@
 				<div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
-						<h4><b>SidGames5</b></h4> 
-						<p>Server Owner</p> 
+						<h4><b>SidGames5</b></h4><br> 
+						<p>Server Owner</p><br>
+						<a href="http://basiccorruption.github.io"><button>Website</button></a>
 					</div>
 				</div>
 				<div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=abcd21292b33e322&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
-						<h4><b>AnotherSlime</b></h4> 
-						<p>Moderator/Developer</p>
+						<h4><b>AnotherSlime</b></h4> <br>
+						<p>Moderator/Developer</p><br>
+						<a href="https://nathanchu.com"><button>Website</button></a>
 					</div>
 				</div>
 				<div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=d33d868914d3fdf5&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
-						<h4><b>SuperBoyThomas6</b></h4> 
-						<p>Moderator</p>
+						<h4><b>SuperBoyThomas6</b></h4><br>
+						<p>Moderator</p><br>
 					</div>
 				</div>
 				<div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
-						<h4><b>TheTrue_Gamer</b></h4> 
-						<p>Builder</p>
+						<h4><b>TheTrue_Gamer</b></h4><br>
+						<p>Builder</p><br>
 					</div>
 				</div>
 				<div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=62ea6be80cca0790&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
-						<h4><b>LeW0lfYT</b></h4> 
-						<p>Builder</p>
+						<h4><b>LeW0lfYT</b></h4><br>
+						<p>Builder</p><br>
+						<a href="http://lewolfyt.github.io"><button>Website</button></a>
 					</div>
 				</div>
 			</div>
