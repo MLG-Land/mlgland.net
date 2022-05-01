@@ -6,6 +6,19 @@
 	if (isset($_SESSION['user'])) {
 		header("location: welcome.php");
 	}
+
+	if (isset($_REQUEST['register_btn'])) {
+
+		echo "<pre>";
+		print_r($_REQUEST);
+		echo "</pre>";
+
+		$name = $_REQUEST['name'];
+		$email = $_REQUEST['email'];
+		$password = $_REQUEST['password'];
+
+
+	}
 ?>
 
 <html lang="en">
