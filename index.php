@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="style.css" />
 		<!-- import javascript -->
 		<script src="script.js"></script>
+		<meta name="description" content="MLG Land Minecraft server">
 	</head>
 	<body>
 		<div class="container">
