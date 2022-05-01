@@ -16,13 +16,13 @@ require_once 'connection.php';
 <body>
 	<div class="container">
 		<form action="index.php" method="post">
-      <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" name="email" class="form-control" placeholder="jane@doe.com">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" placeholder="jane@doe.com">
         </div>
         <div class="mb-3">
-          <label for="password" class="form-label">Password</label>
-          <input type="password" name="password" class="form-control" placeholder="">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" placeholder="">
         </div>
 			<button type="submit" name="login_btn" class="btn btn-primary">Login</button>
 		</form>
