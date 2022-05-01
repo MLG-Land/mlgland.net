@@ -98,6 +98,7 @@
 						<h4><b>SidGames5</b></h4><br> 
 						<p>Server Owner</p><br>
 						<a href="http://basiccorruption.github.io"><button>Website</button></a>
+						<a href="https://www.youtube.com/c/SidGames5"><button>YouTube</button></a>
 					</div>
 				</div>
 				<div class="card">
@@ -120,6 +121,7 @@
 					<div class="card-container">
 						<h4><b>TheTrue_Gamer</b></h4><br>
 						<p>Builder</p><br>
+						<a href="https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ"><button>YouTube</button></a>
 					</div>
 				</div>
 				<div class="card">
@@ -128,6 +130,7 @@
 						<h4><b>LeW0lfYT</b></h4><br>
 						<p>Builder</p><br>
 						<a href="http://lewolfyt.github.io"><button>Website</button></a>
+						<a href="https://www.youtube.com/channel/UCzkLUvKWvA1ROoYFgQr0mJw"><button>YouTube</button></a>
 					</div>
 				</div>
 			</div>
