@@ -92,14 +92,14 @@
 			</div>
 			<div id="profiles">
 				<div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:10%">
+					<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>SidGames5</b></h4> 
 						<p>Server Owner</p> 
 					</div>
 				</div>
 				<div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar" style="width:10%">
+					<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>TheTrue_Gamer</b></h4> 
 						<p>Builder</p>
