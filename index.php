@@ -106,7 +106,8 @@
 					<div class="card-container">
 						<h4><b>AnotherSlime</b></h4> <br>
 						<p>Moderator/Developer</p><br>
-						<a href="https://nathanchu.com" target="_blank"><button>Website</button></a>
+						<a href="https://nathanchu.com" target="_blank"><button>Website</button></a><br>
+						<button disabled="disabled"></button>
 					</div>
 				</div>
 				<div class="card">
@@ -114,6 +115,8 @@
 					<div class="card-container">
 						<h4><b>SuperBoyThomas6</b></h4><br>
 						<p>Moderator</p><br>
+						<button disabled="disabled"></button><br>
+						<button disabled="disabled"></button>
 					</div>
 				</div>
 				<div class="card">
@@ -121,7 +124,8 @@
 					<div class="card-container">
 						<h4><b>TheTrue_Gamer</b></h4><br>
 						<p>Builder</p><br>
-						<a href="https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ" target="_blank"><button>YouTube</button></a>
+						<a href="https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ" target="_blank"><button>YouTube</button></a><br>
+						<button disabled="disabled"></button>
 					</div>
 				</div>
 				<div class="card">
