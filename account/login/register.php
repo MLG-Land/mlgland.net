@@ -13,11 +13,15 @@
 		print_r($_REQUEST);
 		echo "</pre>";
 
-		$name = $_REQUEST['name'];
-		$email = $_REQUEST['email'];
-		$password = $_REQUEST['password'];
+		$name = filter_var($_REQUEST['name'], FILTER_SANITIZE_STRING);
+		$email = filter_var($_REQUEST['email'], FILTER_SANITIZE_EMAIL);
+		$password = strip_tags($_REQUEST['password']);
 
-
+		if (empty($name)) {
+			$_SESSION['error'] = "Name is required";
+			header("location: register.php");
+		}
+		
 	}
 ?>
 
