@@ -1,1 +1,2 @@
+(5/1) <span style="color: orange;"><strong>POWER OUTAGES:</strong></span> There have been several power outages this morning and we are expecting more throughout the course of today. We are sorry if the server goes down any time. There is currently a huge thunder storm in the area.
 (4/20) <span style="color:red"><strong>RECENT ATTEMPTED DDOS ATTACK AND SERVER RAID:</strong></span> A server raid and DDoS attack was executed on the server at approximately 21:05 EDT on 4/20/2022. As of 4/21/2022, the raid is over and bots have stopped joining.
