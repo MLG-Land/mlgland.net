@@ -19,9 +19,8 @@
 
 		if (empty($name)) {
 			$_SESSION['error'] = "Name is required";
-			header("location: register.php");
 		}
-		
+
 	}
 ?>
 
