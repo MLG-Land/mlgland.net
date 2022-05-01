@@ -2,7 +2,7 @@
 
 $db_host = "sql5.freemysqlhosting.net";
 $db_user = "sql5488916";
-$db_pass = "606863";
+$db_pass = "x2fghPDqhu";
 $db_name = "sql5488916";
 
 try {
