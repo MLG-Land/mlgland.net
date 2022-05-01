@@ -18,7 +18,7 @@
 		$password = strip_tags($_REQUEST['password']);
 
 		if (empty($name)) {
-			$_SESSION['error'] = "Name is required";
+			$errorMsg[0][] = "Name is required";
 		}
 
 	}
@@ -40,6 +40,13 @@
 		
 		<form action="register.php" method="post">
 			<div class="mb-3">
+				<?php
+					if (isset($errorMsg[0])) {
+						foreach ($errorMsg[0] as $error) {
+							echo "<div class='alert alert-danger'>$error</div>";
+						}
+					}
+				?>
 				<label for="name" class="form-label">Name</label>
 				<input type="text" name="name" class="form-control" placeholder="Jane Doe">
 			</div>
