@@ -79,6 +79,7 @@ a:hover {
 	image-rendering: pixelated;
 	width: 19%;
 	display: inline-block;
+	height: 100px;
 }
 
 /* On mouse-over, add a deeper shadow */
