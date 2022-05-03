@@ -47,12 +47,12 @@
 						}
 					}
 				?>
-				<label for="name" class="form-label">Name</label>
-				<input type="text" name="name" class="form-control" placeholder="Jane Doe">
+				<label for="name" class="form-label">Username</label>
+				<input type="text" name="name" class="form-control" placeholder="">
 			</div>
 			<div class="mb-3">
 				<label for="email" class="form-label">Email address</label>
-				<input type="email" name="email" class="form-control" placeholder="jane@doe.com">
+				<input type="email" name="email" class="form-control" placeholder="user@example.com">
 			</div>
 			<div class="mb-3">
 				<label for="password" class="form-label">Password</label>
