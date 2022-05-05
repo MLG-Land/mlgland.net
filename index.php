@@ -129,7 +129,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=62ea6be80cca0790&scale=4" alt="Avatar" style="width:100%">
+					<img src="https://s.namemc.com/2d/skin/face.png?id=6d1fe9c43ce8a15a&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>LeW0lfYT</b></h4><br>
 						<p>Builder</p><br>
