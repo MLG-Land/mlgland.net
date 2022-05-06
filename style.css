@@ -94,14 +94,10 @@ a:hover {
 
 details > summary {
 	list-style-image: url("./assets/images/ICON_arrow_right_orange_128x.png");
-	/* resize the image to 16x */
-	background-size: 16px 16px;
 }
 
 details[open] > summary {
 	list-style-image: url("./assets/images/ICON_arrow_down_orange_128x.png");
-	/* resize the image to 16x */
-	background-size: 16px 16px;
 }
 
 details {
