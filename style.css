@@ -3,6 +3,7 @@
 /* Make a dark blue background */
 body {
     background-color: #0000aa;
+	overflow: hidden;
 }
 
 /* Make green rounded buttons */
