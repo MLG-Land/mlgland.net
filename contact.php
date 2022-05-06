@@ -35,9 +35,9 @@
 				></iframe>
 			</div>
 			<div class="email">
-				<a href="mailto:sidgamessendmestuff+mlgland@gmail.com"
+				<a href="mailto:support@mlgland.net"
 					><p>
-						MLG Land Email: sidgamessendmestuff+mlgland@gmail.com
+						Support Email: support@mlgland.net
 					</p></a
 				>
 			</div>
