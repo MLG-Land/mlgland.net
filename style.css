@@ -93,11 +93,11 @@ a:hover {
 
 
 details > summary {
-	list-style-image: url("./assets/images/ICON_arrow_right_orange_128x.png");
+	list-style-image: url("./assets/images/ICON_arrow_right_orange.png");
 }
 
 details[open] > summary {
-	list-style-image: url("./assets/images/ICON_arrow_down_orange_128x.png");
+	list-style-image: url("./assets/images/ICON_arrow_down_orange.png");
 }
 
 details {
