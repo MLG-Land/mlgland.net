@@ -1,5 +1,5 @@
 MinecraftAPI.getServerStatus(
-					"mlgland.ddns.net",
+					"mc.mlgland.net",
 					{
 						port: 25565, // optional, only if you need a custom port
 					},
