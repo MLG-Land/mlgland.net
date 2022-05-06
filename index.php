@@ -57,7 +57,7 @@
 			</div>
 			<div class="alerts">
 				<details>
-					<summary><h2>Alerts</h2></summary>
+					<summary><h2 style="display: inline-block;">Alerts</h2></summary>
 					<h3 id="latest-alerts">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./alerts.js"></script> -->
@@ -77,7 +77,7 @@
 			</div>
 			<div class="updates">
 				<details>
-					<summary><h2>Updates</h2></summary>
+					<summary><h2 style="display: inline-block;">Updates</h2></summary>
 					<h3 id="latest-updates">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./updates.js"></script> -->
