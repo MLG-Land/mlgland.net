@@ -3,7 +3,12 @@
 /* Make a dark blue background */
 body {
     background-color: #0000aa;
-	overflow: hidden;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 /* Make green rounded buttons */
