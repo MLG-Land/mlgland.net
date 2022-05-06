@@ -27,7 +27,7 @@
 		<div class="content">
 			<div class="connection">
 				<ul>
-					<li><h3>Server IP: mlgland.ddns.net</h3></li>
+					<li><h3>Server IP: mc.mlgland.net</h3></li>
 					<li><h3>Server Port: 25565</h3></li>
 					<li><h3>Minecraft Version: 1.8 - 1.18.x</h3></li>
 				</ul>
