@@ -56,8 +56,9 @@
 				/></a>
 			</div>
 			<div class="alerts">
-				<h2>Alerts</h2>
-				<h3 id="latest-alerts">
+				<details>
+					<summary><h2>Alerts</h2></summary>
+					<h3 id="latest-alerts">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./alerts.js"></script> -->
 
@@ -72,9 +73,12 @@
 						}
 					?>
 				</h3>
+				</details>
 			</div>
 			<div class="updates">
-				<h2>Updates</h2>
+				<details>
+					<summary><h2>Updates</h2></summary>
+				</details>
 				<h3 id="latest-updates">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./updates.js"></script> -->
