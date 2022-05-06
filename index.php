@@ -78,8 +78,7 @@
 			<div class="updates">
 				<details>
 					<summary><h2>Updates</h2></summary>
-				</details>
-				<h3 id="latest-updates">
+					<h3 id="latest-updates">
 					<!-- we will use javascript to get the file ./updates.txt, and then we will display it -->
 					<!-- <script src="./updates.js"></script> -->
 					
@@ -94,6 +93,8 @@
 						}
 					?>
 				</h3>
+				</details>
+				
 			</div>
 			<div id="profiles">
 				<div class="card">
