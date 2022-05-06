@@ -90,3 +90,22 @@ a:hover {
 .card-container {
     padding: 2px 16px;
 }
+
+
+details > summary {
+	list-style-image: url("./assets/images/ICON_arrow_right_orange_128x.png");
+}
+
+details[open] > summary {
+	list-style-image: url("./assets/images/ICON_arrow_down_orange_128x.png");
+}
+
+details {
+	border: 1px solid gray;
+	border-radius: 0.2rem;
+	padding: 0.5rem;
+}
+
+details[open] > summary {
+	margin-bottom: 0.5rem;
+}
