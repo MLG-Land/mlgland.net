@@ -107,6 +107,8 @@ html, body {
 
 .button.discord:hover {
 	background-color: #4f5acb;
+	/* add a 0.5s transition */
+	transition: all 0.5s;
 }
 
 .button.discord:active {
@@ -116,6 +118,7 @@ html, body {
 
 .button.play:hover {
 	background-color: #d2c577;
+	transition: all 0.5s;
 }
 
 .button.play:active {
@@ -125,6 +128,7 @@ html, body {
 
 .button.vote:hover {
 	background-color: #7cd277;
+	transition: all 0.5s;
 }
 
 .button.vote:active {
