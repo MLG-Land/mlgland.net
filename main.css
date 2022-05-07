@@ -105,15 +105,31 @@ html, body {
     box-shadow: 4px 4px #7cd277;
 }
 
-button:hover {
-	background-color: #04083b;
+.button.discord:hover {
+	background-color: #4f5acb;
 }
 
-button:active {
-	background-color: #04083b;
-	box-shadow: 0 5px #666;
-	transform: translateX(4px);
-	transform: translateY(4px);
+.button.discord:active {
+	background-color: #4149a7;
+	box-shadow: 2px 2px #5865f2;
+}
+
+.button.play:hover {
+	background-color: #d2c577;
+}
+
+.button.play:active {
+	background-color: #c2b977;
+	box-shadow: 2px 2px #f2dd58;
+}
+
+.button.vote:hover {
+	background-color: #7cd277;
+}
+
+.button.vote:active {
+	background-color: #6cd277;
+	box-shadow: 2px 2px #60f258;
 }
 
 #rest {
