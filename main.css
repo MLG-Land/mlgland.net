@@ -106,9 +106,14 @@ html, body {
 }
 
 button:hover {
-	cursor: pointer;
-	/* remove the shadow */
-	box-shadow: none;
+	background-color: #04083b;
+}
+
+button:active {
+	background-color: #04083b;
+	box-shadow: 0 5px #666;
+	transform: translateX(4px);
+	transform: translateY(4px);
 }
 
 #rest {
