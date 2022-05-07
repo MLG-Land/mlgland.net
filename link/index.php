@@ -3,10 +3,10 @@
 // get url parameters
 $prm = $_GET;
 
-$su = $prm["u"];
+$code = $prm["code"];
 
 // check to see if $su is not empty
-if (!empty($su)) {
+if (!empty($code)) {
 	// debug code
-	echo $su;
+	echo "Code: " . $code;
 }
