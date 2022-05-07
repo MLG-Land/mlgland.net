@@ -97,51 +97,41 @@
 				
 			</div>
 			<div id="profiles">
-				<div class="card">
+				<a href="https://basiccorruption.github.io"><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>SidGames5</b></h4><br> 
 						<p>Server Owner</p><br>
-						<a href="http://basiccorruption.github.io" target="_blank"><button>Website</button></a>
-						<a href="https://www.youtube.com/c/SidGames5" target="_blank"><button>YouTube</button></a>
 					</div>
-				</div>
-				<div class="card">
+				</div></a>
+				<a href="https://nathanchu.com"><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=abcd21292b33e322&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>AnotherSlime</b></h4> <br>
 						<p>Moderator/Developer</p><br>
-						<a href="https://nathanchu.com" target="_blank"><button>Website</button></a><br>
-						<button disabled="disabled">⠀</button>
 					</div>
-				</div>
-				<div class="card">
+				</div></a>
+				<a href="about:blank"><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=d33d868914d3fdf5&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>SuperBoyThomas6</b></h4><br>
 						<p>Moderator</p><br>
-						<button disabled="disabled">⠀</button><br>
-						<button disabled="disabled">⠀</button>
 					</div>
-				</div>
-				<div class="card">
+				</div></a>
+				<a href="https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ"><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>TheTrue_Gamer</b></h4><br>
 						<p>Builder</p><br>
-						<a href="https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ" target="_blank"><button>YouTube</button></a><br>
-						<button disabled="disabled">⠀</button>
 					</div>
-				</div>
-				<div class="card">
+				</div></a>
+				<a href="https://lewolfyt.github.io"><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=6d1fe9c43ce8a15a&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>LeW0lfYT</b></h4><br>
 						<p>Builder</p><br>
-						<a href="http://lewolfyt.github.io" target="_blank"><button>Website</button></a>
-						<a href="https://www.youtube.com/channel/UCzkLUvKWvA1ROoYFgQr0mJw" target="_blank"><button>YouTube</button></a>
 					</div>
-				</div>
+				</div></a>
 			</div>
 		</div>
 	</body>
