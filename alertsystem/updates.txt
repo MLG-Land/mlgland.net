@@ -1,3 +1,3 @@
 <span style="color: green"><strong>MobRacers</strong></span> is now opened in the prototype lobby! 
-<span style="color: green"><strong>KitPvP</strong></span> is now released! Available in the main lobby. 
+<span style="color: cyan"><strong>KitPvP</strong></span> is now released! Available in the main lobby. 
 New prototype lobby in development! (Play games that are in development)
