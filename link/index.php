@@ -8,5 +8,5 @@ $su = $prm["u"];
 // check to see if $su is not empty
 if (!empty($su)) {
 	// debug code
-	echo "SU: " . $su . "<br>";
+	echo $su;
 }
