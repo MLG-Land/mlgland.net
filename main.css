@@ -105,6 +105,12 @@ html, body {
     box-shadow: 4px 4px #7cd277;
 }
 
+button:hover {
+	cursor: pointer;
+	/* remove the shadow */
+	box-shadow: none;
+}
+
 #rest {
     background-color: #2c2f33;
 }
