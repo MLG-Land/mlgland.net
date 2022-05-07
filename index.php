@@ -111,7 +111,7 @@
 						<p>Moderator/Developer</p><br>
 					</div>
 				</div></a>
-				<a href="about:blank"><div class="card">
+				<a href=""><div class="card">
 					<img src="https://s.namemc.com/2d/skin/face.png?id=d33d868914d3fdf5&scale=4" alt="Avatar" style="width:100%">
 					<div class="card-container">
 						<h4><b>SuperBoyThomas6</b></h4><br>
