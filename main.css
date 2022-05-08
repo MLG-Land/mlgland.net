@@ -24,6 +24,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.center {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
 h1 {
 	font-size: 48px;
 	color: white;
