@@ -23,6 +23,11 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+h1 {
+	font-size: 48px;
+	color: white;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -170,4 +175,44 @@ body {
 
 body::-webkit-scrollbar {
 	display: none;
+}
+
+
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	image-rendering: pixelated;
+	width: 19.6%;
+	display: inline-block;
+	background-color: #696969;
+	margin: 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+	padding: 2px 16px;
+}
+
+
+details > summary {
+	list-style-image: url("./assets/images/ICON_arrow_right_orange.png");
+}
+
+details[open] > summary {
+	list-style-image: url("./assets/images/ICON_arrow_down_orange.png");
+}
+
+details {
+	padding: 0.5rem;
+}
+
+details[open] > summary {
+	margin-bottom: 0.5rem;
 }
