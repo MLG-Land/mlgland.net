@@ -23,13 +23,19 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta name="author" content="">
   	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="sidebar.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
 <body>
   
 <div class="container">
-	<div class="header" w3-include-html="../header.html"></div>
+<!--	<div class="header" w3-include-html="../header.html" style="float: left"></div>-->
+	<div class="sidebar"></div>
+	<div><h1>MLG Land</h1></div>
+	<div>Home</div>
+	<div>Play</div>
+	<div>Contact</div>
     <div id="content">
 	    <div id="header" style="width:80%">
 			<?php
