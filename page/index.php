@@ -24,19 +24,30 @@
 <body>
   
 <div class="container">
-  <div id="content">
-	  <?php
-    switch ($_GET["profile"]) {
-			case "SuperBoyThomas6":
-				echo "<h1><strong>SuperBoyThomas6</strong>&#39;s profile";
-				echo "<h2>Moderator</h2>";
-				break;
-			case "SidGames5":
-				echo "<h1><strong>SidGames5</strong>&#39;s profile";
-				echo "<h2>Server Owner</h2>";
-				break;
-		}
-  ?>
+    <div id="content">
+	    <?php
+        	switch ($_GET["profile"]) {
+				case "SuperBoyThomas6":
+					echo "<h1><strong>SuperBoyThomas6</strong>&#39;s profile";
+					echo "<h2>Moderator</h2>";
+					break;
+				case "SidGames5":
+					echo "<h1><strong>SidGames5</strong>&#39;s profile";
+					echo "<h2>Server Owner</h2>";
+					break;
+			}
+  		?>
+	    <div id="about">
+		    <?php
+				switch ($_GET["profile"]) {
+					case "SidGames5":
+						echo "<p>
+							Hello! My name is Sid and I own this server and all of the *totally* secret stuff behind it. I code websites, games, and spigot plugins. I know HTML, CSS, JavaScript, PHP, Java, and Haxe.
+						</p>";
+						break;
+				}
+			?>
+	    </div>
 	</div>
 </div>
 
