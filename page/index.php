@@ -56,7 +56,7 @@
 					case "SidGames5":
 						echo "<img src=&quot;https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4&quot; alt=&quot;Avatar&quot; style=&quot;width:100%&quot;>";
 						echo "<h4>Follow me on my socials</h4>";
-						echo "<a href=&quot;https://basiccorruption.github.io&quot><button>Website</button</a>;
+						echo "<a href=&quot;https://basiccorruption.github.io&quot><button>Website</button</a>";
 						break;
 				}
 			?>
