@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="../style.css">
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<?php
-	if ($_GET["profile"] == null) {
+	if (empty($_GET["profile"])) {
 		echo "<script>window.location.href = error</script>";
 	}
 	?>
