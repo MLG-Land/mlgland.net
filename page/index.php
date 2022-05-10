@@ -48,7 +48,7 @@
 				}
 			?>
 	    </div>
-		<div id="pfp" >
+		<div id="pfp" style="float:right;">
 		    <?php
 				switch ($_GET["profile"]) {
 					case "SidGames5":
