@@ -20,7 +20,15 @@
 <body>
   
 <div class="container">
-  
+  <div id="content">
+	  <?php
+    switch ($_GET["profile"]) {
+			case "SuperBoyThomas6":
+				echo "<h1>SuperBoyThomas6&#39;s profile";
+				break;
+		}
+  ?>
+	</div>
 </div>
 
 <script>
