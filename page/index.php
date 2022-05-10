@@ -48,6 +48,16 @@
 				}
 			?>
 	    </div>
+		<div id="pfp" >
+		    <?php
+				switch ($_GET["profile"]) {
+					case "SidGames5":
+						echo "<img src=&quot;url&quot; width=&quot;128&quot; height=&quot;128&quot;>";
+						echo "<h4>Follow me on my socials</h4>";
+						break;
+				}
+			?>
+	    </div>
 	</div>
 </div>
 
