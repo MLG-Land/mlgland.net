@@ -22,7 +22,7 @@
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta name="author" content="">
-  	<link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="../style.css">
 	<link rel="stylesheet" href="sidebar.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
@@ -31,12 +31,13 @@
   
 <div class="container">
 <!--	<div class="header" w3-include-html="../header.html" style="float: left"></div>-->
-	<div class="sidebar"></div>
-	<div><h1>MLG Land</h1></div>
-	<div>Home</div>
-	<div>Play</div>
-	<div>Contact</div>
-    <div id="content">
+	<div class="sidebar" style="float: left">
+		<div><h1>MLG Land</h1></div>
+		<div><a href="http://mlgland.net"><button>Home</button></a></div>
+		<div><a href="http://mlgland.net/play/"><button>Play</button></a></div>
+		<div><a href="http://mlgland.net/contact/"><button>Contact</button></a></div>
+	</div>
+    <div id="content" style="float: right">
 	    <div id="header" style="width:80%">
 			<?php
         	if (!empty($_GET["profile"])) {
