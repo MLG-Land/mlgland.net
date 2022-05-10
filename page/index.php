@@ -5,8 +5,8 @@
   <?php
     switch ($_GET["profile"]) {
 			case "SuperBoyThomas6":
-				echo "<meta name='description' content='SuperBoyThomas6\'s profile' />";
-				echo "<title>SuperBoyThomas6\'s profile</title>";
+				echo "<meta name='description' content='SuperBoyThomas6&#39;s profile' />";
+				echo "<title>SuperBoyThomas6&#39;s profile</title>";
 				break;
 		}
   ?>
