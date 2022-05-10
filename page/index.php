@@ -19,6 +19,11 @@
   <meta name="author" content="">
   <link rel="stylesheet" href="../style.css">
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<?php
+	if ($_GET["profile"] == null) {
+		echo "<script>window.location.href = error</script>";
+	}
+	?>
 </head>
 
 <body>
