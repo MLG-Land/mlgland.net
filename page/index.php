@@ -48,11 +48,11 @@
 				}
 			?>
 	    </div>
-		<div id="pfp" style="float:right;">
+		<div id="pfp" style="float:right; width:19.6%;">
 		    <?php
 				switch ($_GET["profile"]) {
 					case "SidGames5":
-						echo "<img src=&quot;https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4&quot; width=&quot;128&quot; height=&quot;128&quot;>";
+						echo "<img src=&quot;https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4&quot; style=&quot;width:100%&quot;>";
 						echo "<h4>Follow me on my socials</h4>";
 						break;
 				}
