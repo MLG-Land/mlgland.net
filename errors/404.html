@@ -35,7 +35,7 @@
   					if (i < txt.length) {
     					document.getElementById("demo").innerHTML += txt.charAt(i);
     					i++;
-    					if (txt.charAt(i).match("." || "," || "!" || "?")) {
+    					if (txt.charAt(i) === "." || txt.charAt(i) === "," || txt.charAt(i) === "!" || txt.charAt(i) === "?") {
 							setTimeout(typeWriter, 1000);
 						} else { setTimeout(typeWriter, 1 / speed); }
   					}
