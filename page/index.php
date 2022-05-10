@@ -57,6 +57,7 @@
 						echo "<img src=https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4 alt=&quot;Avatar&quot; style=&quot;width:1000%&quot;>";
 						echo "<h4>Follow me on my socials</h4>";
 						echo "<a href=https://basiccorruption.github.io><button>Website</button</a>";
+						echo "<a href=https://youtube.com/c/SidGames5><button>YouTube</button</a>";
 						break;
 				}
 			?>
