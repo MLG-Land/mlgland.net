@@ -37,7 +37,7 @@
 					break;
 			}
   		?>
-	    <div id="about">
+	    <div id="about" style="float:left; width:80%;">
 		    <?php
 				switch ($_GET["profile"]) {
 					case "SidGames5":
@@ -48,7 +48,7 @@
 				}
 			?>
 	    </div>
-		<div id="pfp" style="float:right; width:19.6%;">
+		<div id="pfp" style="float:right; width:20%;">
 		    <?php
 				switch ($_GET["profile"]) {
 					case "SidGames5":
