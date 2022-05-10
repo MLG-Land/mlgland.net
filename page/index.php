@@ -24,7 +24,8 @@
 	  <?php
     switch ($_GET["profile"]) {
 			case "SuperBoyThomas6":
-				echo "<h1>SuperBoyThomas6&#39;s profile";
+				echo "<h1><strong>SuperBoyThomas6</strong>&#39;s profile";
+				echo "<h2>Moderator</h2>";
 				break;
 		}
   ?>
