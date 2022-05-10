@@ -25,7 +25,8 @@
   
 <div class="container">
     <div id="content">
-	    <?php
+	    <div id="header" style="width:80%">
+			<?php
         	switch ($_GET["profile"]) {
 				case "SuperBoyThomas6":
 					echo "<h1><strong>SuperBoyThomas6</strong>&#39;s profile";
@@ -36,7 +37,8 @@
 					echo "<h2>Server Owner</h2>";
 					break;
 			}
-  		?>
+  			?>
+		</div>
 	    <div id="about" style="float:left; width:80%;">
 		    <?php
 				switch ($_GET["profile"]) {
