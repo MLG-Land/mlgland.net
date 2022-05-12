@@ -16,6 +16,5 @@
 
 #content {
 	margin-left: 150px;
-	float:left;
 	width: calc(100% - 150px);
 }
