@@ -13,17 +13,15 @@ MinecraftAPI.getServerStatus(
 						// you can change these to your own message!
 						document.querySelector(".upstate").innerHTML =
 							status.online
-								? "<h4>Status: Online</h4>"
-								: "<h4>Status: Offline</h4>";
+								? "Status: Online"
+								: "Status: Offline";
 						document.querySelector(".players").innerHTML =
-							"<h4>Players: " +
+							"Players: " +
 							status.players.now +
 							"/" +
 							status.players.max +
-							"</h4>";
+							"";
 						document.querySelector(".version").innerHTML =
-							"<h4>Version: " + status.server.name + "</h4>";
-						document.querySelector(".protocol").innerHTML =
-							"<h4>Version: " + status.server.protocol + "</h4>";
+							"Version: " + status.server.name;
 					}
 					);
