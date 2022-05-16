@@ -25,6 +25,9 @@
   			</div>
 		</div>
 	</div>
+	<div id="info-box">
+		
+	</div>
 </div>
 
 <script>
