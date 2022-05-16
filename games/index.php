@@ -17,16 +17,23 @@
 <div class="container">
   	<h1>Games</h1>
 	<div id="game-cards">
-		<div class="card">
+		<a href="?v=skywars"><div class="card">
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
   			<div class="card-container">
     			<h4><b>SkyWars</b></h4> 
     			<p>x / x players online</p> 
   			</div>
-		</div>
+		</div></a>
 	</div>
 	<div id="info-box">
-		
+		<?php
+			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
+				case "skywars":
+					break;
+				default:
+					echo "<h3>Click on a game to view details</h3>";
+			}}
+		?>
 	</div>
 </div>
 
