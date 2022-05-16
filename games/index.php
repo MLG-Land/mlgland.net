@@ -5,20 +5,19 @@
   	<meta name="description" content="MLG Land Games" />
   	<meta charset="utf-8">
   	<?php
-		if (!empty($_GET["v"])) {switch ($_GET["v"]) {
-			case "skywars":
-				echo "<title>MLG Land - SkyWars</title>";
-				break;
-			default:
-				echo "<title>MLG Land Games</title>";
-		}} else {
+		if (!empty($_GET["v"])) {
+			echo match ($_GET["v"]) {
+				"skywars" => "<title>MLG Land - SkyWars</title>",
+				default => "<title>MLG Land Games</title>",
+			};
+		} else {
 			echo "<title>MLG Land Games</title>";
 		}
 	?>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta name="author" content="">
   	<link rel="stylesheet" href="../style.css">
-	<link rel="stylesheet" href="card.css">
+	<link rel="stylesheet" href="cards.css">
   	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
 	<script src="stats.js"></script>
