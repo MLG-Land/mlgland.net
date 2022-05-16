@@ -33,7 +33,7 @@
     			<p>x / x players online</p> 
   			</div>
 		</div></a>
-	</div>
+	</div><br>
 	<div id="info-box">
 		<?php
 			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
@@ -41,7 +41,7 @@
 					break;
 				default:
 					echo "<h3>Click on a game to view details</h3>";
-			}}
+			}} else { echo "<h3>Click on a game to view details</h3>"; }
 		?>
 	</div>
 </div>
