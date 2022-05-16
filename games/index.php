@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  	<meta name="description" content="Webpage description goes here" />
+  	<meta name="description" content="MLG Land Games" />
   	<meta charset="utf-8">
   	<?php
 		if (!empty($_GET["v"])) {switch ($_GET["v"]) {
@@ -39,6 +39,7 @@
 		<?php
 			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
 				case "skywars":
+					echo "<h1>Skywars</h1> <h2>is a game heavily inspired by Hypixel's skywars.</h2>";
 					break;
 				default:
 					echo "<h3>Click on a game to view details</h3>";
