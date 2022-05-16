@@ -7,6 +7,7 @@
   	<?php
 		if (!empty($_GET["v"])) {switch ($_GET["v"]) {
 			case "skywars":
+				echo "<title>MLG Land - SkyWars</title>";
 				break;
 			default:
 				echo "<title>MLG Land Games</title>";
