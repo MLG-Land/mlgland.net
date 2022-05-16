@@ -17,7 +17,7 @@ var skyward_max = 0;
 MinecraftAPI.getServerStatus(
 	"mc.mlgland.net",
 	{
-		port: 10010, // optional, only if you need a custom port
+		port: 10210, // optional, only if you need a custom port
 	},
 	function (err, status) {
 		if (err) {
