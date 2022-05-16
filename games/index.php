@@ -20,6 +20,8 @@
   	<link rel="stylesheet" href="../style.css">
 	<link rel="stylesheet" href="card.css">
   	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
+	<script src="stats.js"></script>
 </head>
 
 <body style="
@@ -37,7 +39,7 @@
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
   			<div class="card-container">
     			<h4><b>SkyWars</b></h4> 
-    			<p>x / x players online</p> 
+    			<p id="skywars-player-stat">x / x players online</p> 
   			</div>
 		</div></a>
 	</div><br>
