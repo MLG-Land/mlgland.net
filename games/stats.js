@@ -8,9 +8,12 @@ cards made so far:
 - skywars
 */
 
-var skywars_cur;
-var skyward_max;
+// both values will appear as zero if the data cannot be fetched or the server is offline
 
+var skywars_cur = 0;
+var skyward_max = 0;
+
+// skywars
 MinecraftAPI.getServerStatus(
 	"mc.mlgland.net",
 	{
@@ -18,23 +21,25 @@ MinecraftAPI.getServerStatus(
 	},
 	function (err, status) {
 		if (err) {
+			skywars_cur = 0;
+			skywars_max = 0;
 			return (document.querySelector(
 				".status"
 			).innerHTML = "Error loading status");
 		}
 
 		// you can change these to your own message!
-		document.querySelector(".upstate").innerHTML =
+		/*document.querySelector(".upstate").innerHTML =
 			status.online
 				? "Status: Online"
-				: "Status: Offline";
-		document.querySelector(".players").innerHTML =
-			"Players: " +
+				: "Status: Offline";*/
+		/*document.querySelector(".players").innerHTML =
+			"" +
 			status.players.now +
 			"/" +
 			status.players.max +
-			"";
-		document.querySelector(".version").innerHTML =
-			"Version: " + status.server.name;
+			" players online";*/
+		skywars_cur = status.players.now;
+		skywars_max = status.players.max;
 	}
 );
