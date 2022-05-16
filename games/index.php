@@ -39,7 +39,7 @@
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
   			<div class="card-container">
     			<h4><b>SkyWars</b></h4> 
-    			<p id="skywars-player-stat">x / x players online</p> 
+    			<p id="skywars-player-stat">0 / 0 playing</p> 
   			</div>
 		</div></a>
 	</div><br>
