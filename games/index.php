@@ -39,7 +39,7 @@
 		<?php
 			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
 				case "skywars":
-					echo "<h1>Skywars</h1> <h2>is a game heavily inspired by Hypixel's skywars.</h2>";
+					echo "<span style='display:inline;'><h1>Skywars</h1> <h2>is a game heavily inspired by Hypixel's skywars.</h2></span>";
 					break;
 				default:
 					echo "<h3>Click on a game to view details</h3>";
