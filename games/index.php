@@ -22,7 +22,7 @@
   	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
 	<script src="stats.js"></script>
-	<link rel="stylesheet" href="games.css">
+	<link rel="stylesheet" href="./games.css">
 </head>
 
 <body style="
