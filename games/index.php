@@ -22,7 +22,7 @@
   	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
-<body>
+<body style="background-image: url('../image.jpg');">
   
 <div class="container">
   	<h1>Games</h1>
