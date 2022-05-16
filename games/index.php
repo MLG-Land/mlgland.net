@@ -4,7 +4,16 @@
 <head>
   	<meta name="description" content="Webpage description goes here" />
   	<meta charset="utf-8">
-  	<title>MLG Land Games</title>
+  	<?php
+		if (!empty($_GET["v"])) {switch ($_GET["v"]) {
+			case "skywars":
+				break;
+			default:
+				echo "<title>MLG Land Games</title>";
+		}} else {
+			echo "<title>MLG Land Games</title>";
+		}
+	?>
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<meta name="author" content="">
   	<link rel="stylesheet" href="../style.css">
