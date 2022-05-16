@@ -13,6 +13,10 @@
 				echo "<meta name='description' content='SidGames5&#39;s profile' />";
 				echo "<title>SidGames5&#39;s profile</title>";
 				break;
+			case "TheTrue_Gamer":
+				echo "<meta name='description' content='TheTrue_Gamer&#39;s profile' />";
+				echo "<title>TheTrue_Gamer&#39;s profile</title>";
+				break;
 		}
 	} else {
 		echo "<meta name='description' content='SidGames5&#39;s profile' />";
@@ -50,6 +54,10 @@
 						echo "<h1><strong>SidGames5</strong>&#39;s profile";
 						echo "<h2>Server Owner</h2>";
 						break;
+					case "TheTrue_Gamer":
+						echo "<h1><strong>TheTrue_Gamer</strong>&#39;s profile";
+						echo "<h2>Builder/Web Developer/Co-owner</h2>";
+						break;
 				}
 			} else {
 				echo "<h1><strong>SidGames5</strong>&#39;s profile";
@@ -64,6 +72,11 @@
 						case "SidGames5":
 							echo "<p>
 							Hello! My name is Sid and I own this server and all of the *totally* secret stuff behind it. I code websites, games, and spigot plugins. I know HTML, CSS, JavaScript, PHP, Java, and Haxe.
+						</p>";
+							break;
+						case "TheTrue_Gamer":
+							echo "<p>
+							placeholder
 						</p>";
 							break;
 					}
