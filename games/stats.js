@@ -1,4 +1,4 @@
-// <game>-player-stat
+// (id/#) <game>-player-stat
 
 // we need to use the minecraft server api to find the amount of players on each server
 // just a reminder for one of the sysadmins: forwars all the query ports for each server
@@ -43,3 +43,5 @@ MinecraftAPI.getServerStatus(
 		skywars_max = status.players.max;
 	}
 );
+
+document.querySelector("#skywars-player-stat").innerHTML = skywars_cur + " / " + skywars_max + " playing";
