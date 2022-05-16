@@ -7,6 +7,7 @@
   	<?php
 		if (!empty($_GET["v"])) {switch ($_GET["v"]) {
 			case "skywars":
+				echo "<title>MLG Land - SkyWars</title>";
 				break;
 			default:
 				echo "<title>MLG Land Games</title>";
@@ -33,7 +34,7 @@
     			<p>x / x players online</p> 
   			</div>
 		</div></a>
-	</div>
+	</div><br>
 	<div id="info-box">
 		<?php
 			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
@@ -41,7 +42,7 @@
 					break;
 				default:
 					echo "<h3>Click on a game to view details</h3>";
-			}}
+			}} else { echo "<h3>Click on a game to view details</h3>"; }
 		?>
 	</div>
 </div>
