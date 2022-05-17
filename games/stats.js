@@ -29,10 +29,10 @@ MinecraftAPI.getServerStatus(
 		}
 
 		// you can change these to your own message!
-		/*document.querySelector(".upstate").innerHTML =
+		document.querySelector("#skywars-player-stat").innerHTML =
 			status.online
-				? "Status: Online"
-				: "Status: Offline";*/
+				? "Currently Online"
+				: "Currently Offline";
 		/*document.querySelector(".players").innerHTML =
 			"" +
 			status.players.now +
