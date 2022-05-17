@@ -57,7 +57,8 @@
 	</div>
 </div>
 
-<script>
+<script src="../include.js">
+	includeHTML();
 </script>
 
 </body>
