@@ -55,6 +55,13 @@
     			<p class="bedwars-player-stat">Player status unavailable</p> 
   			</div>
 		</div></a>
+		<a href="?v=fastbuilder"><div class="card">
+  			<img src="/images/fastbuilder.png" alt="Avatar" style="width:100%">
+  			<div class="card-container">
+    			<h4><b>FastBuilder</b></h4> 
+    			<p class="fastbuilder-player-stat">Player status unavailable</p> 
+  			</div>
+		</div></a>
 	</div><br>
 	<div id="info-box">
 		<?php
@@ -65,6 +72,10 @@
 					break;
 				case "bedwars":
 					echo "<span style='display:inline;'><h1>BedWars</h1> <h2>is a game heavily inspired by Hypixel's bedwars.</h2></span><br>";
+					echo "<h3>STATUS: Available to play in the lobby</h3>";
+					break;
+				case "fastbuilder":
+					echo "<span style='display:inline;'><h1>FastBuilder</h1> <h2>is a game heavily inspired by McPlayHD's fastbridge.</h2></span><br>";
 					echo "<h3>STATUS: Available to play in the lobby</h3>";
 					break;
 				default:
