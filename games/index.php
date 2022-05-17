@@ -8,6 +8,7 @@
 		if (!empty($_GET["v"])) {
 			echo match ($_GET["v"]) {
 				"skywars" => "<title>MLG Land - SkyWars</title>",
+				"bedwars" => "<title>MLG Land - BedWars</title>",
 				default => "<title>MLG Land Games</title>",
 			};
 		} else {
@@ -39,12 +40,19 @@
 		<a href="http://mlgland.net/play/"><button>Play</button></a>
 		<a href="http://mlgland.net/contact/"><button>Contact</button></a>
 	</div>
-	<div id="game-cards">
+	<div id="game-cards" style="display: inline;">
 		<a href="?v=skywars"><div class="card">
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
   			<div class="card-container">
     			<h4><b>SkyWars</b></h4> 
     			<p class="skywars-player-stat">Player status unavailable</p> 
+  			</div>
+		</div></a>
+		<a href="?v=bedwars"><div class="card">
+  			<img src="/images/bedwars.png" alt="Avatar" style="width:100%">
+  			<div class="card-container">
+    			<h4><b>BedWars</b></h4> 
+    			<p class="bedwars-player-stat">Player status unavailable</p> 
   			</div>
 		</div></a>
 	</div><br>
@@ -53,6 +61,10 @@
 			if (!empty($_GET["v"])) {switch ($_GET["v"]) {
 				case "skywars":
 					echo "<span style='display:inline;'><h1>SkyWars</h1> <h2>is a game heavily inspired by Hypixel's skywars.</h2></span><br>";
+					echo "<h3>STATUS: Available to play in the lobby</h3>";
+					break;
+				case "bedwars":
+					echo "<span style='display:inline;'><h1>BedWars</h1> <h2>is a game heavily inspired by Hypixel's bedwars.</h2></span><br>";
 					echo "<h3>STATUS: Available to play in the lobby</h3>";
 					break;
 				default:
