@@ -34,6 +34,7 @@
   
 <div class="container">
   	<h1>Games</h1>
+	<div class="header" w3-include-html="../header.html" style="float: right;"></div>
 	<div id="game-cards">
 		<a href="?v=skywars"><div class="card">
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
