@@ -39,7 +39,7 @@
   			<img src="/images/skywars.png" alt="Avatar" style="width:100%">
   			<div class="card-container">
     			<h4><b>SkyWars</b></h4> 
-    			<p id="skywars-player-stat">Player status unavailable</p> 
+    			<p class="skywars-player-stat">Player status unavailable</p> 
   			</div>
 		</div></a>
 	</div><br>
