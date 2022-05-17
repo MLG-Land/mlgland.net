@@ -1,4 +1,4 @@
-// (id/#) <game>-player-stat
+// (class/.) <game>-player-stat
 
 // we need to use the minecraft server api to find the amount of players on each server
 // just a reminder for one of the sysadmins: forwars all the query ports for each server
@@ -24,12 +24,12 @@ MinecraftAPI.getServerStatus(
 			skywars_cur = 0;
 			skywars_max = 0;
 			return (document.querySelector(
-				".status"
+				".skywars-player-stat"
 			).innerHTML = "Error loading status");
 		}
 
 		// you can change these to your own message!
-		document.querySelector("#skywars-player-stat").innerHTML =
+		document.querySelector(".skywars-player-stat").innerHTML =
 			status.online
 				? "Currently Online"
 				: "Currently Offline";
@@ -44,4 +44,4 @@ MinecraftAPI.getServerStatus(
 	}
 );
 
-document.querySelector("#skywars-player-stat").innerHTML = skywars_cur + " / " + skywars_max + " playing";
+document.querySelector(".skywars-player-stat").innerHTML = skywars_cur + " / " + skywars_max + " playing";
