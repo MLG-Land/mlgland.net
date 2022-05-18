@@ -29,6 +29,11 @@
 	<link rel="stylesheet" href="../style.css">
 	<link rel="stylesheet" href="sidebar.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	
+	<script>
+		const urlContainParams = window.location.search.length === 0;
+		if (urlContainParams) window.location.href = '404';
+	</script>
 </head>
 
 <body>
