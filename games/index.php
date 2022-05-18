@@ -9,6 +9,7 @@
 			echo match ($_GET["v"]) {
 				"skywars" => "<title>MLG Land - SkyWars</title>",
 				"bedwars" => "<title>MLG Land - BedWars</title>",
+				"fastbuilder" => "<title>MLG Land - FastBuilder</title>",
 				default => "<title>MLG Land Games</title>",
 			};
 		} else {
@@ -23,6 +24,16 @@
 	
 	<script src="stats.js"></script>
 	<link rel="stylesheet" href="./games.css">
+	
+	<?php
+		if (!empty($_GET["v"])) {
+			echo match ($_GET["v"]) {
+				"skywars" => "<script src='backgrounds.js'>change(1);</script>",
+				"bedwars" => "<script src='backgrounds.js'>change(2);</script>",
+				"fastbuilder" => "<script src='backgrounds.js'>change(3);</script>",
+			}
+		}
+	?>
 </head>
 
 <body style="
