@@ -36,7 +36,7 @@
 	?>
 </head>
 
-<body style="
+<body id="background-container" style="
 	background-image: url('../image.jpg');
 	height: 100vh;
     background-position: center;
