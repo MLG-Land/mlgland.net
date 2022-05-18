@@ -31,7 +31,7 @@
 				"skywars" => "<script src='backgrounds.js'>change(1);</script>",
 				"bedwars" => "<script src='backgrounds.js'>change(2);</script>",
 				"fastbuilder" => "<script src='backgrounds.js'>change(3);</script>",
-			}
+			};
 		}
 	?>
 </head>
