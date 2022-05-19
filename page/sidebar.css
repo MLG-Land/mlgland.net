@@ -6,11 +6,12 @@
 	top: 0;
 	padding-top: 40px;
 	/* background-color: #0ad25c;*/
-	background-color: rgba(10, 210, 92, 0.2);
+	background-color: rgba(10, 210, 92, 0.0);
 }
 
 .sidebar:hover {
-	background-color: rgba(10, 210, 92, 0.5);
+	transition: 0.2s;
+	background-color: rgba(10, 210, 92, 0.2);
 }
 
 .sidebar div {
