@@ -8,7 +8,7 @@ if (empty($_GET["profile"])) {
 	case "TheTrue_Gamer":
 		break;
 	default:
-		header("Location: http://www.example.com/page/404");
+		header("Location: http://mlgland.net/page/404");
 		exit();
 }
 ?>
