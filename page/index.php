@@ -101,6 +101,7 @@
 							echo "<h4>Follow me on my socials</h4>";
 							echo "<a href=https://basiccorruption.github.io><button>Website</button</a>";
 							echo "<a href=https://youtube.com/c/SidGames5><button>YouTube</button</a>";
+							echo "<a href=https://tiktok.com/@sidgames5><button>TikTok</button</a>";
 							break;
 					}
 				} else {
