@@ -50,7 +50,7 @@
 				break;
 			default:
 				echo "style=\"
-				background-image: url(\"http://mlgland.net/assets/images/0C50C1E2-404B-4609-847E-CC659D299374.jpeg\");
+				background-image: url(sidbackground.jpg);
     			height: 100vh;
     			background-position: center;
     			background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 		}
 	} else {
 		echo "style=\"
-				background-image: url(\"http://mlgland.net/assets/images/0C50C1E2-404B-4609-847E-CC659D299374.jpeg\");
+				background-image: url(sidbackground.jpg);
     			height: 100vh;
     			background-position: center;
     			background-repeat: no-repeat;
