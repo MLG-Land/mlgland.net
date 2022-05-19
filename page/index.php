@@ -39,7 +39,7 @@
 <body <?php 
 	if (!empty($_GET["profile"])) {
 		switch ($_GET["profile"]) {
-			case "SidGames5": return echo "style=\"
+			case "SidGames5": echo "style=\"
 			background-image: url(\"../assets/images/0C50C1E2-404B-4609-847E-CC659D299374.jpeg\");
     		height: 100vh;
     		background-position: center;
