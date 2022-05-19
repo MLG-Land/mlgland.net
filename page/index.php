@@ -1,3 +1,18 @@
+<?php
+if (empty($_GET["profile"])) {
+	header("Location: http://mlgland.net");
+	exit();
+} else switch ($_GET["profile"]) {
+	case "SidGames5":
+		break;
+	case "TheTrue_Gamer":
+		break;
+	default:
+		header("Location: http://www.example.com/another-page.php");
+		exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
