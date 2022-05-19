@@ -1,6 +1,6 @@
 <?php
 if (empty($_GET["profile"])) {
-	header("Location: http://mlgland.net");
+	header("Location: http://mlgland.net/page/404");
 	exit();
 } else switch ($_GET["profile"]) {
 	case "SidGames5":
@@ -8,7 +8,7 @@ if (empty($_GET["profile"])) {
 	case "TheTrue_Gamer":
 		break;
 	default:
-		header("Location: http://www.example.com/another-page.php");
+		header("Location: http://www.example.com/page/404");
 		exit();
 }
 ?>
