@@ -1,6 +1,5 @@
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
-
-const text = urlParams.get('text');
+var url_string = window.location.href;
+var url = new URL(url_string);
+var text = url.searchParams.get("text");
 
 document.getElementById("text").innerHTML = text;
