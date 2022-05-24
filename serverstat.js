@@ -21,7 +21,9 @@ MinecraftAPI.getServerStatus(
 			"/" +
 			status.players.max +
 			"";
+		/*document.querySelector(".version").innerHTML =
+			"Version: " + status.server.name;*/
 		document.querySelector(".version").innerHTML =
-			"Version: " + status.server.name;
+			"Version: " + "Java Edition 1.8 - 1.18.x";
 	}
 );
