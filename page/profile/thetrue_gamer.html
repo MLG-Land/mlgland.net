@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name='description' content="SidGames5's profile" />
+  <title>TheTrue_Gamer's profile</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="author" content="">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="stylesheet" href="../sidebar.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body style="
+				background-image: url('../sidbackground.jpg');
+    			height: 100vh;
+    			background-position: center;
+    			background-repeat: no-repeat;
+    			background-size: cover;">
+  
+<div class="container">
+<!--	<div class="header" w3-include-html="../header.html" style="float: left"></div>-->
+	<div class="sidebar" style="float: left">
+		<div><h1>MLG Land</h1></div>
+		<div><a href="http://mlgland.net"><button>Home</button></a></div>
+		<div><a href="http://mlgland.net/play/"><button>Play</button></a></div>
+		<div><a href="http://mlgland.net/contact/"><button>Contact</button></a></div>
+	</div>
+    <div id="content" style="float: right">
+	    <div id="header" style="width:80%">
+			<h1><strong>TheTrue_Gamer</strong>&#39;s profile</h1>
+			<h2>Co-Owner/Builder</h2>
+		</div>
+	    <div id="about" style="float:left; width:80%;">
+			<p>
+				 placeholder
+			</p>
+	    </div>
+		<div id="pfp" style="float:right; width:20%; image-rendering: pixelated; position: absolute; top: 4px; right: 4px;">
+			<img src=https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4 alt="Avatar" style="width:100%; border-radius: 10%">
+			<h4>placeholder</h4>
+      <a href=https://www.youtube.com/channel/UC5PSoyVvlZtmbCq58gcIZGQ><button>YouTube</button></a>
+	    </div>
+	</div>
+</div>
+
+<script>
+				function includeHTML() {
+					let z, i, elmnt, file, xhttp;
+					/* Loop through a collection of all HTML elements: */
+    				z = document.getElementsByTagName("*");
+    				for (i = 0; i < z.length; i++) {
+    					elmnt = z[i];
+    					/*search for elements with a certain atrribute:*/
+    					file = elmnt.getAttribute("w3-include-html");
+    					if (file) {
+      						/* Make an HTTP request using the attribute value as the file name: */
+        					xhttp = new XMLHttpRequest();
+							xhttp.onreadystatechange = function() {
+								if (this.readyState === 4) {
+									if (this.status === 200) {
+										elmnt.innerHTML = this.responseText;
+									}
+									if (this.status === 404) {
+										elmnt.innerHTML = "Page not found.";
+									}
+									/* Remove the attribute, and call this function once more: */
+									elmnt.removeAttribute("w3-include-html");
+									includeHTML();
+								}
+							}
+        				xhttp.open("GET", file, true);
+        				xhttp.send();
+      	/* Exit the function: */
+        return;
+    }
+    }
+}
+				includeHTML();
+			</script>
+
+</body>
+</html>
