@@ -147,12 +147,21 @@ html, body {
 	box-shadow: 2px 2px #60f258;
 }
 
-#rest {
+#rest, #footer {
     background-color: #2c2f33;
+}
+
+.footerc {
+	font-size: 32px;
+	color: gray;
 }
 
 #alerts_updates {
     color:white;
+}
+
+.sections {
+	display: inline-block;
 }
 
 @media (min-width: 672px) {
