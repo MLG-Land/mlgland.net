@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="MLG Land Minecraft server">
-    <title>MLG Land</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+	<title>MLG Land</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186411263-1">
 	</script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
 
 		gtag('config', 'UA-186411263-1');
@@ -24,82 +24,104 @@
 </head>
 
 <body>
-    <div id="navbar"></div>
-    <div id="main_image">
-        <div id="main">
-            <h1>MLG Land</h1>
-            <br><br>
-            <a class="button discord" href="https://discord.com/invite/FUDPYt8Hkr" target="_blank">Discord</a>
-            <a class="button play" href="play/">Play</a>
-            <a class="button vote" href="https://minecraftservers.org/vote/635055" target="_blank">Vote</a>
+	<div id="navbar"></div>
+	<div id="main_image">
+		<div id="main">
+			<h1>MLG Land</h1>
 			<br><br>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/XlWBvlxnzoQ?mute=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<a class="button discord" href="https://discord.com/invite/FUDPYt8Hkr" target="_blank">Discord</a>
+			<a class="button play" href="play/">Play</a>
+			<a class="button vote" href="https://minecraftservers.org/vote/635055" target="_blank">Vote</a>
+			<br><br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/XlWBvlxnzoQ?mute=1&autoplay=1"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
 			<!--<a href="https://minecraftservers.org/server/635055" target="_blank"><img src="https://status.minecraftservers.org/classic/635055.png" alt="MLG Land Minecraft server" width="540" height="90" /></a>-->
-        </div>
-        <svg id="scroll_down_it_wont_hurt_you" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-            <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-            <path fill="#fff"
-                d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
-        </svg>
-    </div>
-    <div id="rest">
-        <div id="alerts_updates">
-            <div id="alerts">
-                <h2>Alerts</h2><br>
-                <div id="alerts_body">
-                    Loading...
-                </div>
-            </div>
-            <div id="updates">
-                <h2>Updates</h2><br>
-                <div id="updates_body">
-                    Loading...
-                </div>
-            </div>
-        </div>
+		</div>
+		<svg id="scroll_down_it_wont_hurt_you" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+			<!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+			<path fill="#fff"
+				d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z" />
+		</svg>
+	</div>
+	<div id="rest">
+		<div id="alerts_updates">
+			<div id="alerts">
+				<h2>Alerts</h2><br>
+				<div id="alerts_body">
+					Loading...
+				</div>
+			</div>
+			<div id="updates">
+				<h2>Updates</h2><br>
+				<div id="updates_body">
+					Loading...
+				</div>
+			</div>
+			<div class="status">
+				<h2>Server offline?</h2>
+				<button onclick="window.location.href = 'status/'" class="button play">Get the status!</button>
+			</div>
+		</div>
 		<div id="staff_cards">
 			<h1 class="center">Our Wonderful Staff</h1><br>
 			<div id="profiles">
-				<a href="page/profile/sidgames5.html"><div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar" style="width:100%">
-					<div class="card-container">
-						<h4><b>SidGames5</b></h4><br>
-						<p>Server Owner</p><br>
+				<a href="page/profile/sidgames5.html">
+					<div class="card">
+						<img src="https://s.namemc.com/2d/skin/face.png?id=172430617ff299db&scale=4" alt="Avatar"
+							style="width:100%">
+						<div class="card-container">
+							<h4><b>SidGames5</b></h4><br>
+							<p>Server Owner</p><br>
+						</div>
 					</div>
-				</div></a>
-				<a href="page/profile/anotherslime.html"><div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=abcd21292b33e322&scale=4" alt="Avatar" style="width:100%">
-					<div class="card-container">
-						<h4><b>AnotherSlime</b></h4> <br>
-						<p>Moderator/Developer</p><br>
+				</a>
+				<a href="page/profile/anotherslime.html">
+					<div class="card">
+						<img src="https://s.namemc.com/2d/skin/face.png?id=abcd21292b33e322&scale=4" alt="Avatar"
+							style="width:100%">
+						<div class="card-container">
+							<h4><b>AnotherSlime</b></h4> <br>
+							<p>Moderator/Developer</p><br>
+						</div>
 					</div>
-				</div></a>
-				<a href="page?profile=SuperBoyThomas6"><div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=d33d868914d3fdf5&scale=4" alt="Avatar" style="width:100%">
-					<div class="card-container">
-						<h4><b>SuperBoyThomas6</b></h4><br>
-						<p>Moderator</p><br>
+				</a>
+				<a href="page?profile=SuperBoyThomas6">
+					<div class="card">
+						<img src="https://s.namemc.com/2d/skin/face.png?id=d33d868914d3fdf5&scale=4" alt="Avatar"
+							style="width:100%">
+						<div class="card-container">
+							<h4><b>SuperBoyThomas6</b></h4><br>
+							<p>Moderator</p><br>
+						</div>
 					</div>
-				</div></a>
-				<a href="page/profile/thetrue_gamer.html"><div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar" style="width:100%">
-					<div class="card-container">
-						<h4><b>TheTrue_Gamer</b></h4><br>
-						<p>Builder</p><br>
+				</a>
+				<a href="page/profile/thetrue_gamer.html">
+					<div class="card">
+						<img src="https://s.namemc.com/2d/skin/face.png?id=2c606a3efd995e10&scale=4" alt="Avatar"
+							style="width:100%">
+						<div class="card-container">
+							<h4><b>TheTrue_Gamer</b></h4><br>
+							<p>Builder</p><br>
+						</div>
 					</div>
-				</div></a>
-				<a href="page?profile=LeW0lfYT"><div class="card">
-					<img src="https://s.namemc.com/2d/skin/face.png?id=6d1fe9c43ce8a15a&scale=4" alt="Avatar" style="width:100%">
-					<div class="card-container">
-						<h4><b>LeW0lfYT</b></h4><br>
-						<p>Builder</p><br>
+				</a>
+				<a href="page?profile=LeW0lfYT">
+					<div class="card">
+						<img src="https://s.namemc.com/2d/skin/face.png?id=6d1fe9c43ce8a15a&scale=4" alt="Avatar"
+							style="width:100%">
+						<div class="card-container">
+							<h4><b>LeW0lfYT</b></h4><br>
+							<p>Builder</p><br>
+						</div>
 					</div>
-				</div></a>
+				</a>
 			</div>
 		</div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="main.js"></script>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>
